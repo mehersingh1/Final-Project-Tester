@@ -14,6 +14,7 @@
 		2B0D564D288728A3005F024A /* Final_Project_Tester.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D564B288728A3005F024A /* Final_Project_Tester.xcdatamodeld */; };
 		2B0D564F288728A5005F024A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0D564E288728A5005F024A /* Assets.xcassets */; };
 		2B0D5652288728A5005F024A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0D5650288728A5005F024A /* LaunchScreen.storyboard */; };
+		2B7B32DD2889CC0A00AA209F /* RandomRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B32DC2889CC0900AA209F /* RandomRecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2B0D564E288728A5005F024A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B0D5651288728A5005F024A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B0D5653288728A5005F024A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7B32DC2889CC0900AA209F /* RandomRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2B0D5644288728A3005F024A /* SceneDelegate.swift */,
 				2B0D5646288728A3005F024A /* ViewController.swift */,
 				2B0D5648288728A3005F024A /* Main.storyboard */,
+				2B7B32DC2889CC0900AA209F /* RandomRecipeViewController.swift */,
 				2B0D564E288728A5005F024A /* Assets.xcassets */,
 				2B0D5650288728A5005F024A /* LaunchScreen.storyboard */,
 				2B0D5653288728A5005F024A /* Info.plist */,
@@ -145,6 +148,7 @@
 				2B0D564D288728A3005F024A /* Final_Project_Tester.xcdatamodeld in Sources */,
 				2B0D5643288728A3005F024A /* AppDelegate.swift in Sources */,
 				2B0D5645288728A3005F024A /* SceneDelegate.swift in Sources */,
+				2B7B32DD2889CC0A00AA209F /* RandomRecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
