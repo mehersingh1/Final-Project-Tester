@@ -16,13 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vida·Fit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXd-Ps-CUf">
-                                <rect key="frame" x="104" y="61" width="223" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
-                                <color key="textColor" red="0.0" green="0.18431372549019609" blue="0.082352941176470587" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lemon" translatesAutoresizingMaskIntoConstraints="NO" id="7zX-GY-HpU">
                                 <rect key="frame" x="-53" y="142" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,6 +51,13 @@
                                     <segue destination="5VG-DI-gLB" kind="show" id="f8K-nB-has"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vida·Fit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXd-Ps-CUf">
+                                <rect key="frame" x="108" y="61" width="223" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.18431372549019609" blue="0.082352941176470587" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.67450980392156867" green="0.74901960784313726" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -246,6 +246,22 @@
                                 <color key="textColor" red="0.14509806040000001" green="0.26666668059999998" blue="0.13333332540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="F4CEB202-A8CE-47DD-8B6F-49AD67463FB0" translatesAutoresizingMaskIntoConstraints="NO" id="ren-M2-ACh">
+                                <rect key="frame" x="153" y="171" width="294" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7CF3B744-6666-47FC-9C1F-1D6BE14F54D9" translatesAutoresizingMaskIntoConstraints="NO" id="JMn-QK-nU8">
+                                <rect key="frame" x="11" y="481" width="199" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2E49ED11-49E0-4541-9EF5-40D437D0B759" translatesAutoresizingMaskIntoConstraints="NO" id="4oL-an-TFM">
+                                <rect key="frame" x="153" y="481" width="294" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="469D2B5E-8FE7-427F-9E54-8D55C9946AE8" translatesAutoresizingMaskIntoConstraints="NO" id="JMe-xR-m53">
+                                <rect key="frame" x="-36" y="171" width="292" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rF7-QZ-jpL"/>
                         <color key="backgroundColor" red="0.67450980390000004" green="0.74901960779999999" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -255,7 +271,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RWJ-Tc-7X5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="-109"/>
+            <point key="canvasLocation" x="2230.434782608696" y="-109.15178571428571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OIT-07-0Ch">
@@ -272,6 +288,22 @@
                                 <color key="textColor" red="0.14509806040000001" green="0.26666668059999998" blue="0.13333332540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3B61D6F9-B686-4AAA-8FE7-821C0391FB4D" translatesAutoresizingMaskIntoConstraints="NO" id="KJG-C1-0At">
+                                <rect key="frame" x="-39" y="188" width="310" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7A905182-7744-436F-A56F-964E159EAB57" translatesAutoresizingMaskIntoConstraints="NO" id="BHb-DT-7XP">
+                                <rect key="frame" x="152" y="188" width="310" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B1F5A5DE-2204-4C8D-A58B-C4AC4EFBCA70" translatesAutoresizingMaskIntoConstraints="NO" id="UCE-sb-CpV">
+                                <rect key="frame" x="-39" y="497" width="310" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="D8A5197A-4D75-411E-9C30-83BDEDB8E6A8" translatesAutoresizingMaskIntoConstraints="NO" id="yBZ-Y8-Yum">
+                                <rect key="frame" x="162" y="497" width="291" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kVn-Ph-IK8"/>
                         <color key="backgroundColor" red="0.67450982329999998" green="0.74901962280000001" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -334,6 +366,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="2E49ED11-49E0-4541-9EF5-40D437D0B759" width="600" height="900"/>
+        <image name="3B61D6F9-B686-4AAA-8FE7-821C0391FB4D" width="760" height="1140"/>
+        <image name="469D2B5E-8FE7-427F-9E54-8D55C9946AE8" width="1456" height="2184"/>
+        <image name="7A905182-7744-436F-A56F-964E159EAB57" width="1200" height="1800"/>
+        <image name="7CF3B744-6666-47FC-9C1F-1D6BE14F54D9" width="683" height="1024"/>
+        <image name="B1F5A5DE-2204-4C8D-A58B-C4AC4EFBCA70" width="800" height="1198"/>
+        <image name="D8A5197A-4D75-411E-9C30-83BDEDB8E6A8" width="741" height="1111"/>
+        <image name="F4CEB202-A8CE-47DD-8B6F-49AD67463FB0" width="600" height="900"/>
         <image name="broccoli" width="512" height="512"/>
         <image name="cabbage" width="512" height="512"/>
         <image name="carrot" width="512" height="512"/>
